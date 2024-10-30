@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DnD Exotic Resto</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: url(bg\ polos.jpeg);
+            color: white;
+        }
+
+        /* Header */
+        header {
+            background: url(bg\ H.jpg) no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        header .btn {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Menu Section */
+        .menu {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .menu-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .menu-item img {
+            border-radius: 8px;
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .menu-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .menu-item p {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #777;
+        }
+
+        .menu-item .price {
+            font-size: 18px;
+            color: #ff6347;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Selamat Datang di DnD Exotic Resto</h1>
+        <p>Menikmati cita rasa asli dari bahan terbaik, Masuk dijamin kenyang</p>
+        <a href="#menu" class="btn">Lihat Menu</a>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Daftar Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="soup.jpg" alt="Makanan Pembuka">
+                <h3>Soup Ayam</h3>
+                <p>Sup lezat dengan bahan segar.</p>
+                <p class="price">Rp 20,000</p>
+            </div>
+            <div class="menu-item">
+                <img src="steak.jpg" alt="Hidangan Utama">
+                <h3>Steak Daging</h3>
+                <p>Steak daging sapi dengan saus spesial.</p>
+                <p class="price">Rp 85,000</p>
+            </div>
+            <div class="menu-item">
+                <img src="spagethi.jpg" alt="Hidangan Utama">
+                <h3>Spagethi</h3>
+                <p>Spagethi dengan mie pilihan dan saus spesial.</p>
+                <p class="price">Rp 25,000</p>
+            </div>
+            <div class="menu-item">
+                <img src="nasi goreng.jpg" alt="Hidangan Utama">
+                <h3>Nasi Goreng</h3>
+                <p>Nasi goreng dengan bumbu pilihan.</p>
+                <p class="price">Rp 23,000</p>
+            </div>
+            <div class="menu-item">
+                <img src="es krim.jpg" alt="Makanan Penutup">
+                <h3>Es Krim</h3>
+                <p>Es krim vanila dengan topping buah.</p>
+                <p class="price">Rp 18,000</p>
+            </div>
+            <div class="menu-item">
+                <img src="jus buah.jpg" alt="Minuman">
+                <h3>Jus Buah</h3>
+                <p>Jus buah segar tanpa pengawet.</p>
+                <p class="price">Rp 15,000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 DnD Exotic Resto. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
